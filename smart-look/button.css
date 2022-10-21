@@ -17,6 +17,9 @@
   align-self: center;
   fill: var(--color-shark);
   border-radius: 50%;
+
+  width: 48px;
+  height: 48px;
 }
 
 .button__icon--down {
