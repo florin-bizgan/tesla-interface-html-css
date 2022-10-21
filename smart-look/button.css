@@ -1,0 +1,55 @@
+.button--dark,
+.button--light {
+  width: 256px;
+  height: 40px;
+
+  border: 0;
+  border-radius: var(--border-radius);
+  transition: 250ms;
+  text-transform: uppercase;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.button__icon--up,
+.button__icon--down {
+  transition: 250ms;
+  align-self: center;
+  fill: var(--color-shark);
+  border-radius: 50%;
+}
+
+.button__icon--down {
+  cursor: s-resize;
+}
+
+.button__icon--up {
+  cursor: n-resize;
+  transform: rotate(180deg);
+}
+
+.button__icon--up:hover,
+.button__icon--down:hover {
+  background-color: var(--color-shark);
+  fill: var(--color-mercury);
+}
+
+.button--dark {
+  background-color: var(--color-shark);
+  color: var(--color-light);
+}
+
+.button--dark:hover {
+  background-color: var(--color-mercury);
+  color: var(--color-dark);
+}
+
+.button--light {
+  background-color: var(--color-mercury);
+  color: var(--color-dark);
+}
+
+.button--light:hover {
+  background-color: var(--color-shark);
+  color: var(--color-light);
+}

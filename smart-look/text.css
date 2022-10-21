@@ -1,0 +1,21 @@
+.link,
+.link:visited,
+.link:active {
+  color: var(--color-gray-tuna);
+  font-size: 14px;
+  text-decoration: none;
+  border-bottom: 1px solid var(--color-gray-tuna);
+}
+
+.text {
+  color: var(--color-gray-tuna);
+  font-size: 14px;
+}
+
+.title {
+  color: var(--color-gray-tuna);
+  font-size: 48px;
+
+  display: flex;
+  justify-content: center;
+}
